@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🎓 EduScope (ou o nome que você definir)
 
-## Getting Started
+Plataforma de compartilhamento de vídeos educacionais inspirada no YouTube, mas construída para aprendizado.
+O foco não é só assistir vídeos, mas transformar o consumo de conteúdo em uma experiência imersiva, organizada e produtiva para alunos e professores.
 
-First, run the development server:
+🚀 Funcionalidades
 
-```bash
+🎬 Player avançado com seleção de qualidade
+
+⚡ Processamento em tempo real com Mux
+
+📝 Transcrição automática de vídeos
+
+🖼️ Geração inteligente de thumbnails
+
+🤖 Títulos e descrições via IA
+
+📊 Creator Studio com métricas detalhadas
+
+🗂️ Gerenciamento de playlists personalizadas
+
+📱 Design responsivo (desktop, tablet, mobile)
+
+🔄 Múltiplos feeds de conteúdo
+
+💬 Sistema de comentários interativos
+
+👍 Likes e inscrições em canais
+
+🎯 Histórico de visualizações
+
+🔐 Autenticação segura
+
+📦 Arquitetura modular para escalar facilmente
+
+🛠️ Tecnologias Utilizadas
+
+Frontend: Next.js 15, React 19
+
+APIs & Comunicação: tRPC (type-safe)
+
+Estilo: TailwindCSS, ShadcnUI
+
+Banco de Dados: PostgreSQL + DrizzleORM
+
+Vídeos: Mux (processamento, streaming, thumbnails)
+
+IA: geração automática de títulos, descrições e legendas
+
+Infraestrutura: arquitetura modular e escalável
+
+📚 Para Desenvolvedores
+Pré-requisitos
+
+Node.js >= 20
+
+PostgreSQL configurado
+
+Conta no Mux
+ para processamento de vídeo
+
+Instalação
+# Clone o repositório
+git clone https://github.com/tobiasteles/mentorplay.git
+
+# Entre na pasta
+cd seu-repo
+
+# Instale as dependências
+npm install
+
+# Configure variáveis de ambiente (veja .env.example)
+cp .env.example .env.local
+
+# Rode as migrações do banco
+npm run db:push
+
+# Inicie o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔮 Próximos Passos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ Implementar quizzes interativos nos vídeos
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ Sistema de anotações e flashcards vinculados a trechos do vídeo
 
-## Learn More
+ Gamificação com conquistas e rankings
 
-To learn more about Next.js, take a look at the following resources:
+ Integração com cursos completos e certificações
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🤝 Contribuição
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contribuições são bem-vindas!
+Abra uma issue para sugerir melhorias ou um pull request com seu código.
 
-## Deploy on Vercel
+📄 Licença
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Distribuído sob a licença MIT. Veja LICENSE para mais detalhes.
