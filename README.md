@@ -1,4 +1,4 @@
-🎓 Mentroplay
+🎓 Mentorplay
 
 Plataforma de compartilhamento de vídeos educacionais inspirada no YouTube, mas construída para aprendizado.
 O foco não é só assistir vídeos, mas transformar o consumo de conteúdo em uma experiência imersiva, organizada e produtiva para alunos e professores.
