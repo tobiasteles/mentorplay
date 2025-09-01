@@ -1,98 +1,138 @@
 🎓 Mentorplay
+Plataforma de educação imersiva através de vídeos
+Transformando o consumo de conteúdo educacional em uma experiência organizada, produtiva e engajante para alunos e educadores.
 
-Plataforma de compartilhamento de vídeos educacionais inspirada no YouTube, mas construída para aprendizado.
-O foco não é só assistir vídeos, mas transformar o consumo de conteúdo em uma experiência imersiva, organizada e produtiva para alunos e professores.
+✨ Destaques
+🚀 Experiência de Aprendizado Revolucionária
+Não somos apenas mais uma plataforma de vídeos. Combinamos tecnologia avançada com princípios pedagógicos para criar uma jornada de aprendizado verdadeiramente eficaz.
 
-🚀 Funcionalidades
+🎬 Conteúdo que Prende a Atenção
+Player inteligente com qualidade adaptativa, transcrições sincronizadas e interface imersiva para manter o foco no que importa: o aprendizado.
 
-🎬 Player avançado com seleção de qualidade
+🤖 IA Integrada
+Automação inteligente para criação de conteúdo, desde geração de títulos até transcrições automáticas, permitindo que educadores foquem no que fazem melhor: ensinar.
 
-⚡ Processamento em tempo real com Mux
+🚀 Funcionalidades Principais
+🎯 Experiência de Vídeo Avançada
+Player Inteligente - Seleção automática de qualidade e desempenho otimizado
 
-📝 Transcrição automática de vídeos
+Transcrições Sincronizadas - Legendas automáticas e navegação por conteúdo
 
-🖼️ Geração inteligente de thumbnails
+Thumbnails Inteligentes - Geração automática de imagens atraentes
 
-🤖 Títulos e descrições via IA
+Playlists Organizadas - Cursos estruturados em sequências lógicas
 
-📊 Creator Studio com métricas detalhadas
+🛠️ Ferramentas para Criadores
+Creator Studio - Dashboard completo com métricas de engajamento
 
-🗂️ Gerenciamento de playlists personalizadas
+IA Assistente - Geração automática de títulos, descrições e tags
 
-📱 Design responsivo (desktop, tablet, mobile)
+Gerenciamento de Conteúdo - Organização intuitiva de vídeos e playlists
 
-🔄 Múltiplos feeds de conteúdo
+Processamento Rápido - Encoding em tempo real com Mux
 
-💬 Sistema de comentários interativos
+👥 Engajamento e Comunidade
+Sistema de Comentários - Discussões organizadas por tópicos
 
-👍 Likes e inscrições em canais
+Interações Sociais - Likes, inscrições e compartilhamentos
 
-🎯 Histórico de visualizações
+Histórico Personalizado - Acompanhamento do progresso de aprendizado
 
-🔐 Autenticação segura
+Múltiplos Feeds - Descoberta de conteúdo por interesses específicos
 
-📦 Arquitetura modular para escalar facilmente
+🔐 Infraestrutura Robusta
+Autenticação Segura - Acesso protegido e gerenciamento de perfis
 
-🛠️ Tecnologias Utilizadas
+Design Responsivo - Experiência perfeita em desktop, tablet e mobile
 
-Frontend: Next.js 15, React 19
+Arquitetura Escalável - Preparada para crescimento com modularidade
 
-APIs & Comunicação: tRPC (type-safe)
+Banco de Dados Otimizado - Desempenho e confiabilidade
 
-Estilo: TailwindCSS, ShadcnUI
-
-Banco de Dados: PostgreSQL + DrizzleORM
-
-Vídeos: Mux (processamento, streaming, thumbnails)
-
-IA: geração automática de títulos, descrições e legendas
-
-Infraestrutura: arquitetura modular e escalável
-
-📚 Para Desenvolvedores
+🛠️ Stack Tecnológica
+Camada	Tecnologias
+Frontend	Next.js 15, React 19, TypeScript
+Estilização	TailwindCSS, ShadcnUI
+Backend	tRPC (end-to-end type safety)
+Banco de Dados	PostgreSQL com DrizzleORM
+Processamento de Vídeo	Mux (streaming, encoding, thumbnails)
+Inteligência Artificial	Geração de conteúdo automático
+Deploy & Infra	Arquitetura modular escalável
+🚀 Começando
 Pré-requisitos
+Node.js 20 ou superior
 
-Node.js >= 20
+Banco PostgreSQL configurado
 
-PostgreSQL configurado
+Conta no Mux para processamento de vídeo
 
-Conta no Mux
- para processamento de vídeo
+Instalação Passo a Passo
+Clone o repositório
 
-Instalação
-# Clone o repositório
+bash
 git clone https://github.com/tobiasteles/mentorplay.git
+cd mentorplay
+Instale as dependências
 
-# Entre na pasta
-cd seu-repo
-
-# Instale as dependências
+bash
 npm install
+Configure as variáveis de ambiente
 
-# Configure variáveis de ambiente (veja .env.example)
+bash
 cp .env.example .env.local
+Edite .env.local com suas configurações
 
-# Rode as migrações do banco
+Prepare o banco de dados
+
+bash
 npm run db:push
+Inicie o servidor de desenvolvimento
 
-# Inicie o servidor de desenvolvimento
+bash
 npm run dev
+Acesse a aplicação
+Abra http://localhost:3000 no seu navegador
 
-🔮 Próximos Passos
+📋 Roadmap
+Quizzes Interativos - Testes de conhecimento integrados aos vídeos
 
- Implementar quizzes interativos nos vídeos
+Sistema de Anotações - Notas vinculadas a trechos específicos do vídeo
 
- Sistema de anotações e flashcards vinculados a trechos do vídeo
+Flashcards Automáticos - Revisão baseada em espaçamento repetitivo
 
- Gamificação com conquistas e rankings
+Gamificação - Conquistas e rankings para aumentar engajamento
 
- Integração com cursos completos e certificações
+Certificações - Cursos completos com certificação verificável
 
-🤝 Contribuição
+Modo Offline - Download de vídeos para aprendizado sem conexão
 
-Contribuições são bem-vindas!
-Abra uma issue para sugerir melhorias ou um pull request com seu código.
+🤝 Como Contribuir
+Adoramos contribuições! Veja como ajudar:
+
+Faça um Fork do projeto
+
+Crie uma Branch para sua Feature (git checkout -b feature/AmazingFeature)
+
+Commit suas Mudanças (git commit -m 'Add some AmazingFeature')
+
+Push para a Branch (git push origin feature/AmazingFeature)
+
+Abra um Pull Request
+
+Precisa de ideias? Confine nossas issues abertas para ver onde você pode ajudar.
 
 📄 Licença
+Distribuído sob licença MIT. Veja LICENSE para mais informações.
 
-Distribuído sob a licença MIT. Veja LICENSE para mais detalhes.
+🌟 Agradecimentos
+Equipe Mux pelo incrível serviço de vídeo
+
+Comunidade Next.js pelo framework revolucionário
+
+Todos os contribuidores que dedicaram seu tempo para melhorar esta plataforma
+
+Mentorplay - Transformando a educação através da tecnologia ✨
+
+https://./public/og-image.png
+
+Desenvolvido com ❤️ para a comunidade educacional
