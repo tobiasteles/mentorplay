@@ -2,71 +2,66 @@
 Plataforma de educação imersiva através de vídeos
 Transformando o consumo de conteúdo educacional em uma experiência organizada, produtiva e engajante para alunos e educadores.
 
+https://img.shields.io/badge/Status-Desenvolvimento%2520Ativo-brightgreen
+https://img.shields.io/badge/Next.js-15-black
+https://img.shields.io/badge/React-19-blue
+https://img.shields.io/badge/TypeScript-Full%2520Support-blue
+
 ✨ Destaques
-🚀 Experiência de Aprendizado Revolucionária
-Não somos apenas mais uma plataforma de vídeos. Combinamos tecnologia avançada com princípios pedagógicos para criar uma jornada de aprendizado verdadeiramente eficaz.
+Player Inteligente com qualidade adaptativa e transcrições sincronizadas
 
-🎬 Conteúdo que Prende a Atenção
-Player inteligente com qualidade adaptativa, transcrições sincronizadas e interface imersiva para manter o foco no que importa: o aprendizado.
+IA Integrada para geração automática de títulos, descrições e legendas
 
-🤖 IA Integrada
-Automação inteligente para criação de conteúdo, desde geração de títulos até transcrições automáticas, permitindo que educadores foquem no que fazem melhor: ensinar.
+Creator Studio com métricas detalhadas de engajamento
 
-🚀 Funcionalidades Principais
-🎯 Experiência de Vídeo Avançada
-Player Inteligente - Seleção automática de qualidade e desempenho otimizado
+Design Responsivo para desktop, tablet e mobile
 
-Transcrições Sincronizadas - Legendas automáticas e navegação por conteúdo
+Arquitetura Escalável preparada para crescimento
 
-Thumbnails Inteligentes - Geração automática de imagens atraentes
+🚀 Funcionalidades
+🎯 Experiência de Vídeo
+Player com seleção de qualidade
 
-Playlists Organizadas - Cursos estruturados em sequências lógicas
+Transcrição automática de vídeos
+
+Geração inteligente de thumbnails
+
+Gerenciamento de playlists personalizadas
+
+Histórico de visualizações
 
 🛠️ Ferramentas para Criadores
-Creator Studio - Dashboard completo com métricas de engajamento
+Creator Studio com analytics
 
-IA Assistente - Geração automática de títulos, descrições e tags
+Geração de conteúdo via IA
 
-Gerenciamento de Conteúdo - Organização intuitiva de vídeos e playlists
+Sistema de comentários interativos
 
-Processamento Rápido - Encoding em tempo real com Mux
+Likes e inscrições em canais
 
-👥 Engajamento e Comunidade
-Sistema de Comentários - Discussões organizadas por tópicos
+🔐 Infraestrutura
+Autenticação segura
 
-Interações Sociais - Likes, inscrições e compartilhamentos
+Processamento em tempo real com Mux
 
-Histórico Personalizado - Acompanhamento do progresso de aprendizado
+Banco de dados PostgreSQL
 
-Múltiplos Feeds - Descoberta de conteúdo por interesses específicos
+Arquitetura modular e escalável
 
-🔐 Infraestrutura Robusta
-Autenticação Segura - Acesso protegido e gerenciamento de perfis
+🛠️ Tecnologias
+Frontend: Next.js 15, React 19
 
-Design Responsivo - Experiência perfeita em desktop, tablet e mobile
+Estilização: TailwindCSS, ShadcnUI
 
-Arquitetura Escalável - Preparada para crescimento com modularidade
+Backend: tRPC (type-safe)
 
-Banco de Dados Otimizado - Desempenho e confiabilidade
+Banco de Dados: PostgreSQL + DrizzleORM
 
-🛠️ Stack Tecnológica
-Camada	Tecnologias
-Frontend	Next.js 15, React 19, TypeScript
-Estilização	TailwindCSS, ShadcnUI
-Backend	tRPC (end-to-end type safety)
-Banco de Dados	PostgreSQL com DrizzleORM
-Processamento de Vídeo	Mux (streaming, encoding, thumbnails)
-Inteligência Artificial	Geração de conteúdo automático
-Deploy & Infra	Arquitetura modular escalável
-🚀 Começando
-Pré-requisitos
-Node.js 20 ou superior
+Vídeos: Mux (processamento e streaming)
 
-Banco PostgreSQL configurado
+IA: Geração automática de conteúdo
 
-Conta no Mux para processamento de vídeo
-
-Instalação Passo a Passo
+📦 Instalação
 Clone o repositório
 
 bash
@@ -80,59 +75,37 @@ Configure as variáveis de ambiente
 
 bash
 cp .env.example .env.local
-Edite .env.local com suas configurações
-
-Prepare o banco de dados
+Execute as migrações do banco
 
 bash
 npm run db:push
-Inicie o servidor de desenvolvimento
+Inicie o servidor
 
 bash
 npm run dev
-Acesse a aplicação
-Abra http://localhost:3000 no seu navegador
+🔮 Próximas Funcionalidades
+Quizzes interativos nos vídeos
 
-📋 Roadmap
-Quizzes Interativos - Testes de conhecimento integrados aos vídeos
+Sistema de anotações e flashcards
 
-Sistema de Anotações - Notas vinculadas a trechos específicos do vídeo
+Gamificação com conquistas
 
-Flashcards Automáticos - Revisão baseada em espaçamento repetitivo
+Integração com certificações
 
-Gamificação - Conquistas e rankings para aumentar engajamento
-
-Certificações - Cursos completos com certificação verificável
-
-Modo Offline - Download de vídeos para aprendizado sem conexão
-
-🤝 Como Contribuir
-Adoramos contribuições! Veja como ajudar:
+🤝 Contribuindo
+Contribuições são bem-vindas! Siga os passos:
 
 Faça um Fork do projeto
 
 Crie uma Branch para sua Feature (git checkout -b feature/AmazingFeature)
 
-Commit suas Mudanças (git commit -m 'Add some AmazingFeature')
+Commit suas mudanças (git commit -m 'Add some AmazingFeature')
 
 Push para a Branch (git push origin feature/AmazingFeature)
 
 Abra um Pull Request
 
-Precisa de ideias? Confine nossas issues abertas para ver onde você pode ajudar.
-
 📄 Licença
-Distribuído sob licença MIT. Veja LICENSE para mais informações.
-
-🌟 Agradecimentos
-Equipe Mux pelo incrível serviço de vídeo
-
-Comunidade Next.js pelo framework revolucionário
-
-Todos os contribuidores que dedicaram seu tempo para melhorar esta plataforma
+Distribuído sob licença MIT. Veja LICENSE para mais detalhes.
 
 Mentorplay - Transformando a educação através da tecnologia ✨
-
-https://./public/og-image.png
-
-Desenvolvido com ❤️ para a comunidade educacional
