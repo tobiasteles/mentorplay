@@ -11,7 +11,7 @@ export default function Home() {
       alt="Logo"
       />
       <p className="text-lg font-semibold tracking-tight">
-        MentorPlay
+        MentorPlay2
       </p>
     </div>
   )
